@@ -10,7 +10,7 @@ My work focuses on reliable data movement, measurable analysis, deployable model
 
 | Repository | What it demonstrates |
 |---|---|
-| [Data Analytics Portfolio](https://github.com/Ahammed-Nabil/data-analytics-portfolio) | Python and Pandas analysis, KPI design, time-series trends, RFM/cohort retention, segmentation, anomaly detection, dashboards |
+| [Data Analytics Portfolio](https://github.com/Ahammed-Nabil/data-analytics-portfolio) | Python, SQL, DuckDB, KPI design, dimensional modeling, RFM/cohort retention, segmentation, anomaly detection, dashboards |
 | [Data Engineering Portfolio](https://github.com/Ahammed-Nabil/data-engineering-portfolio) | CSV ETL, REST APIs, retries, data contracts, quality checks, atomic writes, structured logging, Docker |
 | [AI/ML Engineering Portfolio](https://github.com/Ahammed-Nabil/ai-ml-engineering-portfolio) | scikit-learn, model evaluation, FastAPI inference, health checks, Docker, TF-IDF retrieval, RAG evaluation, KS/PSI monitoring |
 
@@ -40,9 +40,13 @@ A reproducible customer analytics workflow that calculates RFM scores, segments 
 
 A monitoring workflow that compares red and white UCI wine populations with baseline/current model metrics, KS tests, PSI thresholds, and a visual drift report.
 
+### SQL Analytics Engineering
+
+A DuckDB warehouse workflow with staging, fact, customer, product, and KPI mart models, exported tables, quality checks, and automated tests over a real sales dataset.
+
 ## Tools
 
-`Python` `SQL` `Pandas` `Requests` `pytest` `scikit-learn` `FastAPI` `Docker` `GitHub Actions` `Matplotlib` `REST APIs` `ETL` `Data Contracts` `RAG Evaluation` `RFM` `Cohort Analysis` `KS Test` `PSI`
+`Python` `SQL` `DuckDB` `Pandas` `Requests` `pytest` `scikit-learn` `FastAPI` `Docker` `GitHub Actions` `Matplotlib` `REST APIs` `ETL` `Data Contracts` `Dimensional Modeling` `RAG Evaluation` `RFM` `Cohort Analysis` `KS Test` `PSI`
 
 ## What I am learning next
 
