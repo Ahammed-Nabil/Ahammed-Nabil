@@ -12,7 +12,7 @@ My work focuses on reliable data movement, measurable analysis, deployable model
 |---|---|
 | [Data Analytics Portfolio](https://github.com/Ahammed-Nabil/data-analytics-portfolio) | Python, SQL, DuckDB, KPI design, dimensional modeling, RFM/cohort retention, segmentation, anomaly detection, dashboards |
 | [Data Engineering Portfolio](https://github.com/Ahammed-Nabil/data-engineering-portfolio) | CSV ETL, REST APIs, retries, data contracts, schema/completeness checks, freshness, distributions, atomic writes, structured logging, Docker |
-| [AI/ML Engineering Portfolio](https://github.com/Ahammed-Nabil/ai-ml-engineering-portfolio) | scikit-learn, model evaluation, FastAPI inference, health checks, Docker, TF-IDF retrieval, RAG evaluation, KS/PSI monitoring |
+| [AI/ML Engineering Portfolio](https://github.com/Ahammed-Nabil/ai-ml-engineering-portfolio) | scikit-learn, model evaluation, FastAPI inference, health checks, Docker, TF-IDF retrieval, RAG evaluation, KS/PSI monitoring, model registries, promotion gates |
 
 ## Selected projects
 
@@ -48,9 +48,13 @@ A DuckDB warehouse workflow with staging, fact, customer, product, and KPI mart 
 
 A reusable contract-driven framework that checks schema, completeness, primary-key uniqueness, freshness, numeric ranges, and distribution shifts, then emits machine-readable JSON and human-readable Markdown health reports.
 
+### Model Registry and Promotion Gates
+
+A reproducible MLOps workflow that evaluates logistic regression and random forest candidates, enforces accuracy and macro-F1 gates, registers versioned artifacts, promotes a champion, and carries model lineage into batch predictions.
+
 ## Tools
 
-`Python` `SQL` `DuckDB` `Pandas` `Requests` `pytest` `scikit-learn` `FastAPI` `Docker` `GitHub Actions` `Matplotlib` `REST APIs` `ETL` `Data Contracts` `Data Quality` `Freshness Monitoring` `Observability` `Dimensional Modeling` `RAG Evaluation` `RFM` `Cohort Analysis` `KS Test` `PSI`
+`Python` `SQL` `DuckDB` `Pandas` `Requests` `pytest` `scikit-learn` `FastAPI` `Docker` `GitHub Actions` `Matplotlib` `REST APIs` `ETL` `Data Contracts` `Data Quality` `Freshness Monitoring` `Observability` `Dimensional Modeling` `RAG Evaluation` `RFM` `Cohort Analysis` `Model Registry` `Promotion Gates` `KS Test` `PSI`
 
 ## What I am learning next
 
