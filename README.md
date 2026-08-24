@@ -10,7 +10,7 @@ My work focuses on reliable data movement, measurable analysis, deployable model
 
 | Repository | What it demonstrates |
 |---|---|
-| [Data Analytics Portfolio](https://github.com/Ahammed-Nabil/data-analytics-portfolio) | Python, SQL, DuckDB, KPI design, dimensional modeling, RFM/cohort retention, segmentation, anomaly detection, dashboards |
+| [Data Analytics Portfolio](https://github.com/Ahammed-Nabil/data-analytics-portfolio) | Python, SQL, DuckDB, KPI design, dimensional modeling, RFM/cohort retention, segmentation, anomaly detection, dashboards, experiment analysis |
 | [Data Engineering Portfolio](https://github.com/Ahammed-Nabil/data-engineering-portfolio) | CSV ETL, REST APIs, retries, data contracts, schema/completeness checks, freshness, distributions, atomic writes, structured logging, orchestration, run history, Docker |
 | [AI/ML Engineering Portfolio](https://github.com/Ahammed-Nabil/ai-ml-engineering-portfolio) | scikit-learn, model evaluation, FastAPI inference, health checks, Docker, TF-IDF retrieval, RAG evaluation, KS/PSI monitoring, model registries, promotion gates |
 
@@ -44,6 +44,10 @@ A monitoring workflow that compares red and white UCI wine populations with base
 
 A DuckDB warehouse workflow with staging, fact, customer, product, and KPI mart models, exported tables, quality checks, and automated tests over a real sales dataset.
 
+### A/B-Test Experiment Analysis
+
+A statistically cautious workflow that validates treatment/page assignment, compares conversion rates, calculates confidence intervals and p-values, measures practical lift, and produces a reproducible launch decision.
+
 ### Data Quality Observability
 
 A reusable contract-driven framework that checks schema, completeness, primary-key uniqueness, freshness, numeric ranges, and distribution shifts, then emits machine-readable JSON and human-readable Markdown health reports.
@@ -58,7 +62,7 @@ A dependency-aware workflow that runs ingestion and quality validation as separa
 
 ## Tools
 
-`Python` `SQL` `DuckDB` `Pandas` `Requests` `pytest` `scikit-learn` `FastAPI` `Docker` `GitHub Actions` `Matplotlib` `REST APIs` `ETL` `Data Contracts` `Data Quality` `Freshness Monitoring` `Observability` `Orchestration` `Retries` `Run History` `Dimensional Modeling` `RAG Evaluation` `RFM` `Cohort Analysis` `Model Registry` `Promotion Gates` `KS Test` `PSI`
+`Python` `SQL` `DuckDB` `Pandas` `Requests` `pytest` `scikit-learn` `FastAPI` `Docker` `GitHub Actions` `Matplotlib` `REST APIs` `ETL` `Data Contracts` `Data Quality` `Freshness Monitoring` `Observability` `Orchestration` `Retries` `Run History` `Dimensional Modeling` `RAG Evaluation` `RFM` `Cohort Analysis` `A/B Testing` `Confidence Intervals` `Practical Lift` `Model Registry` `Promotion Gates` `KS Test` `PSI`
 
 ## What I am learning next
 
