@@ -11,7 +11,7 @@ My work focuses on reliable data movement, measurable analysis, deployable model
 | Repository | What it demonstrates |
 |---|---|
 | [Data Analytics Portfolio](https://github.com/Ahammed-Nabil/data-analytics-portfolio) | Python, SQL, DuckDB, KPI design, dimensional modeling, RFM/cohort retention, segmentation, anomaly detection, dashboards |
-| [Data Engineering Portfolio](https://github.com/Ahammed-Nabil/data-engineering-portfolio) | CSV ETL, REST APIs, retries, data contracts, quality checks, atomic writes, structured logging, Docker |
+| [Data Engineering Portfolio](https://github.com/Ahammed-Nabil/data-engineering-portfolio) | CSV ETL, REST APIs, retries, data contracts, schema/completeness checks, freshness, distributions, atomic writes, structured logging, Docker |
 | [AI/ML Engineering Portfolio](https://github.com/Ahammed-Nabil/ai-ml-engineering-portfolio) | scikit-learn, model evaluation, FastAPI inference, health checks, Docker, TF-IDF retrieval, RAG evaluation, KS/PSI monitoring |
 
 ## Selected projects
@@ -44,9 +44,13 @@ A monitoring workflow that compares red and white UCI wine populations with base
 
 A DuckDB warehouse workflow with staging, fact, customer, product, and KPI mart models, exported tables, quality checks, and automated tests over a real sales dataset.
 
+### Data Quality Observability
+
+A reusable contract-driven framework that checks schema, completeness, primary-key uniqueness, freshness, numeric ranges, and distribution shifts, then emits machine-readable JSON and human-readable Markdown health reports.
+
 ## Tools
 
-`Python` `SQL` `DuckDB` `Pandas` `Requests` `pytest` `scikit-learn` `FastAPI` `Docker` `GitHub Actions` `Matplotlib` `REST APIs` `ETL` `Data Contracts` `Dimensional Modeling` `RAG Evaluation` `RFM` `Cohort Analysis` `KS Test` `PSI`
+`Python` `SQL` `DuckDB` `Pandas` `Requests` `pytest` `scikit-learn` `FastAPI` `Docker` `GitHub Actions` `Matplotlib` `REST APIs` `ETL` `Data Contracts` `Data Quality` `Freshness Monitoring` `Observability` `Dimensional Modeling` `RAG Evaluation` `RFM` `Cohort Analysis` `KS Test` `PSI`
 
 ## What I am learning next
 
