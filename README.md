@@ -60,6 +60,10 @@ A reproducible MLOps workflow that evaluates logistic regression and random fore
 
 A descriptive audit on the UCI Adult dataset that excludes sex from predictive features, reports subgroup selection, TPR, and FPR, sweeps decision thresholds, and documents responsible-use limits.
 
+### Batch/Online Inference Parity Harness
+
+A release-gating harness that compares batch and request-time predictions from the same calibrated model artifact. It enforces an exact 30-feature contract, rejects missing and non-finite inputs, compares labels, probabilities, and model lineage across 25 rows, and reports zero mismatches.
+
 ### Feature Store and Training-Serving Consistency
 
 A lightweight feature-store pattern built on real Adventure Works sales data. Versioned a customer feature contract, generated a 12,427-entity offline snapshot, implemented online-style point lookup with missing-entity and freshness checks, and compared serving vectors against training features to detect skew.
@@ -74,7 +78,7 @@ A partition-aware warehouse load that fingerprints CSV inputs, processes only ne
 
 ## Tools
 
-`Python` `SQL` `DuckDB` `Pandas` `Requests` `pytest` `scikit-learn` `FastAPI` `Docker` `GitHub Actions` `Matplotlib` `REST APIs` `ETL` `Data Contracts` `Data Quality` `Freshness Monitoring` `Observability` `Orchestration` `Retries` `Run History` `Incremental ELT` `Partition Fingerprinting` `Dimensional Modeling` `RAG Evaluation` `RFM` `Cohort Analysis` `A/B Testing` `Confidence Intervals` `Practical Lift` `Model Registry` `Promotion Gates` `Fairness Auditing` `Subgroup Metrics` `Responsible AI` `KS Test` `PSI` `Feature Contracts` `Offline Snapshots` `Online Lookup` `Training-Serving Skew`
+`Python` `SQL` `DuckDB` `Pandas` `Requests` `pytest` `scikit-learn` `FastAPI` `Docker` `GitHub Actions` `Matplotlib` `REST APIs` `ETL` `Data Contracts` `Data Quality` `Freshness Monitoring` `Observability` `Orchestration` `Retries` `Run History` `Incremental ELT` `Partition Fingerprinting` `Dimensional Modeling` `RAG Evaluation` `RFM` `Cohort Analysis` `A/B Testing` `Confidence Intervals` `Practical Lift` `Model Registry` `Promotion Gates` `Fairness Auditing` `Subgroup Metrics` `Responsible AI` `KS Test` `PSI` `Feature Contracts` `Offline Snapshots` `Online Lookup` `Training-Serving Skew` `Inference Parity` `Release Gates`
 
 ## What I am learning next
 
