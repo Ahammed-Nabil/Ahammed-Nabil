@@ -12,7 +12,7 @@ My work focuses on reliable data movement, measurable analysis, deployable model
 |---|---|
 | [Data Analytics Portfolio](https://github.com/Ahammed-Nabil/data-analytics-portfolio) | Python, SQL, DuckDB, KPI design, dimensional modeling, RFM/cohort retention, segmentation, anomaly detection, dashboards, experiment analysis |
 | [Data Engineering Portfolio](https://github.com/Ahammed-Nabil/data-engineering-portfolio) | CSV ETL, REST APIs, retries, data contracts, schema/completeness checks, freshness, distributions, atomic writes, structured logging, orchestration, run history, Docker |
-| [AI/ML Engineering Portfolio](https://github.com/Ahammed-Nabil/ai-ml-engineering-portfolio) | scikit-learn, model evaluation, FastAPI inference, health checks, Docker, TF-IDF retrieval, RAG evaluation, KS/PSI monitoring, model registries, promotion gates |
+| [AI/ML Engineering Portfolio](https://github.com/Ahammed-Nabil/ai-ml-engineering-portfolio) | scikit-learn, model evaluation, FastAPI inference, health checks, Docker, TF-IDF retrieval, RAG evaluation, KS/PSI monitoring, model registries, promotion gates, subgroup fairness evaluation |
 
 ## Selected projects
 
@@ -56,13 +56,17 @@ A reusable contract-driven framework that checks schema, completeness, primary-k
 
 A reproducible MLOps workflow that evaluates logistic regression and random forest candidates, enforces accuracy and macro-F1 gates, registers versioned artifacts, promotes a champion, and carries model lineage into batch predictions.
 
+### Fairness and Subgroup Evaluation
+
+A descriptive audit on the UCI Adult dataset that excludes sex from predictive features, reports subgroup selection, TPR, and FPR, sweeps decision thresholds, and documents responsible-use limits.
+
 ### Pipeline Orchestration and Recovery
 
 A dependency-aware workflow that runs ingestion and quality validation as separate tasks, retries transient failures, blocks downstream work after upstream failure, and persists task-level run history.
 
 ## Tools
 
-`Python` `SQL` `DuckDB` `Pandas` `Requests` `pytest` `scikit-learn` `FastAPI` `Docker` `GitHub Actions` `Matplotlib` `REST APIs` `ETL` `Data Contracts` `Data Quality` `Freshness Monitoring` `Observability` `Orchestration` `Retries` `Run History` `Dimensional Modeling` `RAG Evaluation` `RFM` `Cohort Analysis` `A/B Testing` `Confidence Intervals` `Practical Lift` `Model Registry` `Promotion Gates` `KS Test` `PSI`
+`Python` `SQL` `DuckDB` `Pandas` `Requests` `pytest` `scikit-learn` `FastAPI` `Docker` `GitHub Actions` `Matplotlib` `REST APIs` `ETL` `Data Contracts` `Data Quality` `Freshness Monitoring` `Observability` `Orchestration` `Retries` `Run History` `Dimensional Modeling` `RAG Evaluation` `RFM` `Cohort Analysis` `A/B Testing` `Confidence Intervals` `Practical Lift` `Model Registry` `Promotion Gates` `Fairness Auditing` `Subgroup Metrics` `Responsible AI` `KS Test` `PSI`
 
 ## What I am learning next
 
