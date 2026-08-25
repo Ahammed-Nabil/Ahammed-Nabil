@@ -12,7 +12,7 @@ My work focuses on reliable data movement, measurable analysis, deployable model
 |---|---|
 | [Data Analytics Portfolio](https://github.com/Ahammed-Nabil/data-analytics-portfolio) | Python, SQL, DuckDB, KPI design, dimensional modeling, RFM/cohort retention, segmentation, anomaly detection, dashboards, experiment analysis |
 | [Data Engineering Portfolio](https://github.com/Ahammed-Nabil/data-engineering-portfolio) | CSV ETL, REST APIs, retries, data contracts, schema/completeness checks, freshness, distributions, atomic writes, structured logging, orchestration, run history, incremental ELT, Docker |
-| [AI/ML Engineering Portfolio](https://github.com/Ahammed-Nabil/ai-ml-engineering-portfolio) | scikit-learn, model evaluation, FastAPI inference, health checks, Docker, TF-IDF retrieval, RAG evaluation, KS/PSI monitoring, model registries, promotion gates, subgroup fairness evaluation |
+| [AI/ML Engineering Portfolio](https://github.com/Ahammed-Nabil/ai-ml-engineering-portfolio) | scikit-learn, model evaluation, FastAPI inference, health checks, Docker, TF-IDF retrieval, RAG evaluation, KS/PSI monitoring, model registries, promotion gates, subgroup fairness evaluation, feature contracts, offline/online parity checks |
 
 ## Selected projects
 
@@ -60,6 +60,10 @@ A reproducible MLOps workflow that evaluates logistic regression and random fore
 
 A descriptive audit on the UCI Adult dataset that excludes sex from predictive features, reports subgroup selection, TPR, and FPR, sweeps decision thresholds, and documents responsible-use limits.
 
+### Feature Store and Training-Serving Consistency
+
+A lightweight feature-store pattern built on real Adventure Works sales data. Versioned a customer feature contract, generated a 12,427-entity offline snapshot, implemented online-style point lookup with missing-entity and freshness checks, and compared serving vectors against training features to detect skew.
+
 ### Pipeline Orchestration and Recovery
 
 A dependency-aware workflow that runs ingestion and quality validation as separate tasks, retries transient failures, blocks downstream work after upstream failure, and persists task-level run history.
@@ -70,7 +74,7 @@ A partition-aware warehouse load that fingerprints CSV inputs, processes only ne
 
 ## Tools
 
-`Python` `SQL` `DuckDB` `Pandas` `Requests` `pytest` `scikit-learn` `FastAPI` `Docker` `GitHub Actions` `Matplotlib` `REST APIs` `ETL` `Data Contracts` `Data Quality` `Freshness Monitoring` `Observability` `Orchestration` `Retries` `Run History` `Incremental ELT` `Partition Fingerprinting` `Dimensional Modeling` `RAG Evaluation` `RFM` `Cohort Analysis` `A/B Testing` `Confidence Intervals` `Practical Lift` `Model Registry` `Promotion Gates` `Fairness Auditing` `Subgroup Metrics` `Responsible AI` `KS Test` `PSI`
+`Python` `SQL` `DuckDB` `Pandas` `Requests` `pytest` `scikit-learn` `FastAPI` `Docker` `GitHub Actions` `Matplotlib` `REST APIs` `ETL` `Data Contracts` `Data Quality` `Freshness Monitoring` `Observability` `Orchestration` `Retries` `Run History` `Incremental ELT` `Partition Fingerprinting` `Dimensional Modeling` `RAG Evaluation` `RFM` `Cohort Analysis` `A/B Testing` `Confidence Intervals` `Practical Lift` `Model Registry` `Promotion Gates` `Fairness Auditing` `Subgroup Metrics` `Responsible AI` `KS Test` `PSI` `Feature Contracts` `Offline Snapshots` `Online Lookup` `Training-Serving Skew`
 
 ## What I am learning next
 
