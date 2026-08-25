@@ -60,6 +60,10 @@ A reproducible MLOps workflow that evaluates logistic regression and random fore
 
 A descriptive audit on the UCI Adult dataset that excludes sex from predictive features, reports subgroup selection, TPR, and FPR, sweeps decision thresholds, and documents responsible-use limits.
 
+### Monitoring Drift and Alert Evaluation
+
+Extended model monitoring with the real UCI Wine Quality dataset by comparing reference and current populations using KS and PSI metrics, performance degradation checks, warning/critical severity, and machine-readable alert reports. The reference run flagged all 11 features and showed ROC-AUC moving from 0.872 to 0.755.
+
 ### Production Model Serving Observability
 
 A privacy-safe inference observability layer that records structured request metadata, aggregates p50/p95/max latency and error rates, checks model-version consistency, and emits threshold-based health alerts. The reference run processed 25 successful requests at 18 ms p95 latency with zero alerts.
@@ -82,7 +86,7 @@ A partition-aware warehouse load that fingerprints CSV inputs, processes only ne
 
 ## Tools
 
-`Python` `SQL` `DuckDB` `Pandas` `Requests` `pytest` `scikit-learn` `FastAPI` `Docker` `GitHub Actions` `Matplotlib` `REST APIs` `ETL` `Data Contracts` `Data Quality` `Freshness Monitoring` `Observability` `Orchestration` `Retries` `Run History` `Incremental ELT` `Partition Fingerprinting` `Dimensional Modeling` `RAG Evaluation` `RFM` `Cohort Analysis` `A/B Testing` `Confidence Intervals` `Practical Lift` `Model Registry` `Promotion Gates` `Fairness Auditing` `Subgroup Metrics` `Responsible AI` `KS Test` `PSI` `Feature Contracts` `Offline Snapshots` `Online Lookup` `Training-Serving Skew` `Inference Parity` `Release Gates` `Structured Logging` `Latency Metrics` `Error Rates` `Alert Thresholds`
+`Python` `SQL` `DuckDB` `Pandas` `Requests` `pytest` `scikit-learn` `FastAPI` `Docker` `GitHub Actions` `Matplotlib` `REST APIs` `ETL` `Data Contracts` `Data Quality` `Freshness Monitoring` `Observability` `Orchestration` `Retries` `Run History` `Incremental ELT` `Partition Fingerprinting` `Dimensional Modeling` `RAG Evaluation` `RFM` `Cohort Analysis` `A/B Testing` `Confidence Intervals` `Practical Lift` `Model Registry` `Promotion Gates` `Fairness Auditing` `Subgroup Metrics` `Responsible AI` `KS Test` `PSI` `Feature Contracts` `Offline Snapshots` `Online Lookup` `Training-Serving Skew` `Inference Parity` `Release Gates` `Structured Logging` `Latency Metrics` `Error Rates` `Alert Thresholds` `KS Test` `PSI` `Drift Alerts` `Severity Levels`
 
 ## What I am learning next
 
