@@ -60,6 +60,10 @@ A reproducible MLOps workflow that evaluates logistic regression and random fore
 
 A descriptive audit on the UCI Adult dataset that excludes sex from predictive features, reports subgroup selection, TPR, and FPR, sweeps decision thresholds, and documents responsible-use limits.
 
+### Signed Model Promotion Approval
+
+A gated promotion workflow that validates accuracy, macro-F1, parity, and fairness-review evidence, requires a named approver, signs the release record with HMAC-SHA256, and rejects tampered approvals. The reference candidate passed four quality gates with valid signature integrity.
+
 ### Statistical Canary Gates
 
 Strengthened staged rollout decisions with minimum-sample requirements and Wilson 95% confidence intervals. The reference run passed all four stages with a 0.0209 canary error upper bound and 0.9883 agreement lower bound.
@@ -98,7 +102,7 @@ A partition-aware warehouse load that fingerprints CSV inputs, processes only ne
 
 ## Tools
 
-`Python` `SQL` `DuckDB` `Pandas` `Requests` `pytest` `scikit-learn` `FastAPI` `Docker` `GitHub Actions` `Matplotlib` `REST APIs` `ETL` `Data Contracts` `Data Quality` `Freshness Monitoring` `Observability` `Orchestration` `Retries` `Run History` `Incremental ELT` `Partition Fingerprinting` `Dimensional Modeling` `RAG Evaluation` `RFM` `Cohort Analysis` `A/B Testing` `Confidence Intervals` `Practical Lift` `Model Registry` `Promotion Gates` `Fairness Auditing` `Subgroup Metrics` `Responsible AI` `KS Test` `PSI` `Feature Contracts` `Offline Snapshots` `Online Lookup` `Training-Serving Skew` `Inference Parity` `Release Gates` `Structured Logging` `Latency Metrics` `Error Rates` `Alert Thresholds` `KS Test` `PSI` `Drift Alerts` `Severity Levels` `Rollback Verification` `Smoke Tests` `Recovery Evidence` `Canary Rollout` `Traffic Gates` `Promote Hold Rollback` `Wilson Intervals` `Confidence Bounds` `Sample-Size Gates`
+`Python` `SQL` `DuckDB` `Pandas` `Requests` `pytest` `scikit-learn` `FastAPI` `Docker` `GitHub Actions` `Matplotlib` `REST APIs` `ETL` `Data Contracts` `Data Quality` `Freshness Monitoring` `Observability` `Orchestration` `Retries` `Run History` `Incremental ELT` `Partition Fingerprinting` `Dimensional Modeling` `RAG Evaluation` `RFM` `Cohort Analysis` `A/B Testing` `Confidence Intervals` `Practical Lift` `Model Registry` `Promotion Gates` `Fairness Auditing` `Subgroup Metrics` `Responsible AI` `KS Test` `PSI` `Feature Contracts` `Offline Snapshots` `Online Lookup` `Training-Serving Skew` `Inference Parity` `Release Gates` `Structured Logging` `Latency Metrics` `Error Rates` `Alert Thresholds` `KS Test` `PSI` `Drift Alerts` `Severity Levels` `Rollback Verification` `Smoke Tests` `Recovery Evidence` `Canary Rollout` `Traffic Gates` `Promote Hold Rollback` `Wilson Intervals` `Confidence Bounds` `Sample-Size Gates` `Signed Promotion` `HMAC Integrity` `Approval Gates`
 
 ## What I am learning next
 
